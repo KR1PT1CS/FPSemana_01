@@ -3,9 +3,9 @@ def main():
 
     # Este comando solicita os dados de três personagens
     for i in range(3):
-        nome = input("Nome do personagem: ")
-        ataque = int(input("Valor de ataque: "))
-        defesa = int(input("Valor de defesa: "))
+        nome = input("Nome: ")
+        ataque = int(input("Ataque: "))
+        defesa = int(input("Defesa: "))
         characters.append([nome, (ataque, defesa)])
 
     #  Este exibe a estrutura criada
